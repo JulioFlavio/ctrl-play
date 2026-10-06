@@ -29,12 +29,17 @@ def cadastro():
     telefone5 = int(input("\n==============\nQual e o telefone do quinto participante?"))
     altura5 = float(input("\n==============\nQual é a altura do quinto participante?"))
 
-    pessoa1 = [nome1, email1, cep1, telefone1, altura1]
-    pessoa2 = [nome2, email2, cep2, telefone2, altura2]
-    pessoa3 = [nome3, email3, cep3, telefone3, altura3]
-    pessoa4 = [nome4, email4, cep4, telefone4, altura4]
-    pessoa5 = [nome5, email5, cep5, telefone5, altura5]
+    return [nome1, email1, cep1, telefone1, altura1], [nome2, email2, cep2, telefone2, altura2], [nome3, email3, cep3, telefone3, altura3], [nome4, email4, cep4, telefone4, altura4], [nome5, email5, cep5, telefone5, altura5]
 
-    print(pessoa1, pessoa2, pessoa3, pessoa4, pessoa5)
+def olhar_pessoas(participantes):
+    for pessoa in participantes:
+        print("Nome: ", pessoa[0])
+        print("Email: ", pessoa[1])
+        print("CEP: ", pessoa[2])
+        print("Telefone: ", pessoa[3])
+        print("Altura: ", pessoa[4])
+        print("==============================")
+        
 
-cadastro()
+    
+
