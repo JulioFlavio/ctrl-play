@@ -14,3 +14,5 @@ print("Seu nome é:", coisasdapessoa[" Seu nome"])
 print("Seu carro é:", coisasdapessoa[" Seu carro"])
 print("Sua cor favorita é:", coisasdapessoa[" Sua Cor Favorita"])
 print("Sua idade é:", coisasdapessoa[" Sua idade"])
+
+
