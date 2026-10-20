@@ -1,5 +1,5 @@
-import eventoGeekAlunos.cadastrar as cad
-import eventoGeekAlunos.atividades as ativ
+import cadastrar as cad
+import atividades as ativ
 
 print("==================\n    EVENTO GEEK\n==================\n\n1 - Cadastrar participantes\n2 - Ver participantes\n3 - Registrar atividade\n4 - Comprar produtos\n5 - Ver pontuações\n6 - Relatório final\n0 - Encerrar programa")
 
