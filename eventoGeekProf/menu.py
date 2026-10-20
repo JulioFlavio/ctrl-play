@@ -1,5 +1,5 @@
 import cadastro as cad
-import atividades
+import eventoGeekAlunos.atividades as atividades
 
 participantes = []
 def exibirMenu():

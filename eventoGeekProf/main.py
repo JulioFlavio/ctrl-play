@@ -1,4 +1,4 @@
-import menu
+import eventoGeekAlunos.menu as menu
 import cadastro as cad
 
 participantes = []
