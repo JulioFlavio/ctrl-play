@@ -1,1 +1,2 @@
-Voce tem 13 anos e seu nome e Geraldo
+Funcionário: nome, idade, identificação, salario - exibir funcionario, 
+Estagiario: (Funcionário), horas trabalhadas - exibir estagiario
