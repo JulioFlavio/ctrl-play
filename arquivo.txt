@@ -1,2 +1,2 @@
-Funcionário: nome, idade, identificação, salario - exibir funcionario, 
-Estagiario: (Funcionário), horas trabalhadas - exibir estagiario
+Funcionário: nome, idade, identificação, salario - exibir funcionario
+Estagiario: (Funcionário), horas trabalhadas - exibir estagiario, calcular horas complementares
