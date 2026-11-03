@@ -1,3 +1,5 @@
+import random
+
 class RPG():
     nome = ""
     vida = 0
@@ -57,7 +59,7 @@ class arqueiro(RPG):
         self.mira = mira
 
     def testarMira(self):
-        print(f"Voce acertou {self.mira} flechas no alvo!")
+        print(f"Voce acertou {random.randint(self.mira, (self.mira * 2))} flechas no alvo!")
     
     def mostrarArqueiro(self):
         print(self.mira, self.nome, self.vida, self.nivel)
