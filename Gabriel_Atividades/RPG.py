@@ -9,6 +9,9 @@ class RPG():
         self.nome = nome
         self.vida = vida
         self.nivel = nivel
+    
+    def getNome(self):
+        return self.nome
 
     def mostrarJogador(self):
         print(str(self.nome), int(self.vida), int(self.nivel))
