@@ -13,6 +13,8 @@ class personagem():
         print("Vida: ", self.vida)
         print("Nivel: ", self.nivel)
 
+    def getNome(self):
+        return self.nome
 
 class guerreiro(personagem):
     arma = ""
